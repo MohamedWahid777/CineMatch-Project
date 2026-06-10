@@ -2,22 +2,48 @@
 
 Smart Movie Recommendation Platform powered by Data Mining algorithms.
 
-## About
-CineMatch analyzes 7,658 real movies and uses 4 Data Mining algorithms 
-to help users discover films that match their personal taste.
+## 📌 Overview
+CineMatch analyzes 7,658 real-world movies and generates personalized recommendations using multiple Data Mining techniques.
 
-## Algorithms
-- **K-Means Clustering** — Groups movies into meaningful clusters
-- **Apriori Association Rules** — Discovers genre relationships
-- **TF-IDF + Cosine Similarity** — Content-based recommendations
-- **KNN** — Collaborative-style filtering
+## 🚀 Features
+- Movie recommendation engine
+- Discover similar movies
+- Explore movie clusters
+- Genre association analysis
+- Interactive dashboard and visualizations
 
-## Tech Stack
-- Backend: Python + Flask
-- Data Science: Pandas, Scikit-learn, Mlxtend
-- Frontend: HTML + CSS + JavaScript + Chart.js
-- Database: SQLite
+## 🧠 Data Mining Algorithms
 
-## Run Locally
+### K-Means Clustering
+Groups movies into meaningful clusters based on their characteristics.
+
+### Apriori Association Rules
+Discovers hidden relationships between movie genres.
+
+### TF-IDF + Cosine Similarity
+Provides content-based recommendations using movie descriptions.
+
+### KNN
+Generates collaborative-style recommendations based on similarity.
+
+## 🛠️ Tech Stack
+- Python
+- Flask
+- Pandas
+- Scikit-learn
+- Mlxtend
+- SQLite
+- HTML
+- CSS
+- JavaScript
+- Chart.js
+
+## 📂 Dataset
+- 7,658 movies
+- Multiple genres and metadata
+
+## ⚙️ Installation
+
+```bash
 pip install flask pandas scikit-learn mlxtend werkzeug
 python app.py
